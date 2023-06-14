@@ -26,7 +26,7 @@ function NoMatch() {
 
 const App = () => {
   return (
-    <BrowserRouter basename="/spa-project">
+    <BrowserRouter>
       <Header />
       <main className="container content">
         <Routes>
